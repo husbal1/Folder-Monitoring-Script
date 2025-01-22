@@ -41,18 +41,18 @@ It assumes Python 3.x, which is available on most modern Linux/Unix distribution
 
 # How to Run the Script
 
-Ensure Python 3.x is Installed:
+- Ensure Python 3.x is Installed:
 
 The script is written in Python 3.x, so ensure that Python 3 is installed on your system.
 You can check if Python 3 is installed by running the following command:
 
 **python3 --version**
 
-Make the Script Executable (Optional):
+- Make the Script Executable (Optional):
 
 **chmod +x script-v8.py**
 
-Run the Script:
+- Run the Script:
 
 To run the script, use the following command:
 
@@ -60,7 +60,7 @@ To run the script, use the following command:
 
 Upon running the script, you will be prompted to enter the full path of the folder you want to monitor.
 
-Enter the full path of the folder to monitor: /path/to/your/folder
+- Enter the full path of the folder to monitor: /path/to/your/folder
 
 The script will print messages to the screen when a file with content-banned in its name is created, renamed, or removed.
 Example output:
@@ -74,7 +74,7 @@ Renamed: content-banned-file1.txt -> content-banned-file1-renamed.txt
 Removed: content-banned-file3.txt
 Stop the Script:
 
-To stop the script, press Ctrl + C. This will halt the monitoring process.
+- To stop the script, press Ctrl + C. This will halt the monitoring process.
 
 # Evaluation Criteria
 
