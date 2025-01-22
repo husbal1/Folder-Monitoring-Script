@@ -72,27 +72,28 @@ Found during startup: content-banned-file1.txt
 Created: content-banned-file2.txt  
 Renamed: content-banned-file1.txt -> content-banned-file1-renamed.txt  
 Removed: content-banned-file3.txt  
-Stop the Script:  
 
-- To stop the script, press Ctrl + C. This will halt the monitoring process.
+- Stop the Script:    
+
+To stop the script, press Ctrl + C. This will halt the monitoring process.
 
 # Evaluation Criteria
 
 The following criteria were considered while developing this script:
 
-**Algorithm**: The script efficiently monitors the folder by tracking files based on their inode numbers, which ensures accurate detection of renamed files. It uses a polling mechanism to detect changes and minimize resource usage.
+- **Algorithm**: The script efficiently monitors the folder by tracking files based on their inode numbers, which ensures accurate detection of renamed files. It uses a polling mechanism to detect changes and minimize resource usage.
 
-**Portability**: The script is designed to run on any vanilla Linux/Unix system without requiring additional dependencies. It uses Python 3, which is commonly available on most systems, and the code avoids relying on external network connectivity.
+- **Portability**: The script is designed to run on any vanilla Linux/Unix system without requiring additional dependencies. It uses Python 3, which is commonly available on most systems, and the code avoids relying on external network connectivity.
 
-**User Friendliness**: The script prompts the user for input (folder path), provides clear error messages for invalid input, and offers helpful information, such as the polling interval and events detected. It also provides an easy way to stop monitoring (via Ctrl+C).
+- **User Friendliness**: The script prompts the user for input (folder path), provides clear error messages for invalid input, and offers helpful information, such as the polling interval and events detected. It also provides an easy way to stop monitoring (via Ctrl+C).
 
-**Maintainability**: The code is modular, with functions like monitor_folder that encapsulate the monitoring logic. It is designed to be easily extensible, with variables like POLLING_INTERVAL exposed for reconfiguration.
+- **Maintainability**: The code is modular, with functions like monitor_folder that encapsulate the monitoring logic. It is designed to be easily extensible, with variables like POLLING_INTERVAL exposed for reconfiguration.
 
-**Readability**: The script is well-organized, with clear function names and comments explaining the core logic, making it easy to read and understand.
+- **Readability**: The script is well-organized, with clear function names and comments explaining the core logic, making it easy to read and understand.
 
-**Scalability**: The script can easily be extended to handle additional file operations or support multiple folders. The polling interval can also be adjusted to balance performance and responsiveness.
+- **Scalability**: The script can easily be extended to handle additional file operations or support multiple folders. The polling interval can also be adjusted to balance performance and responsiveness.
 
-**Usability**: The script is designed to be simple and intuitive to use. The user only needs to provide a folder path, and the script takes care of monitoring the directory and detecting relevant file events (created, renamed, removed).
+- **Usability**: The script is designed to be simple and intuitive to use. The user only needs to provide a folder path, and the script takes care of monitoring the directory and detecting relevant file events (created, renamed, removed).
 
 # Future Improvements
 
