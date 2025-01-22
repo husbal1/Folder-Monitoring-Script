@@ -68,11 +68,11 @@ Example output:
 Monitoring folder: /path/to/your/folder
 Polling interval: 1 second(s)
 
-Found during startup: content-banned-file1.txt
-Created: content-banned-file2.txt
-Renamed: content-banned-file1.txt -> content-banned-file1-renamed.txt
-Removed: content-banned-file3.txt
-Stop the Script:
+Found during startup: content-banned-file1.txt  
+Created: content-banned-file2.txt  
+Renamed: content-banned-file1.txt -> content-banned-file1-renamed.txt  
+Removed: content-banned-file3.txt  
+Stop the Script:  
 
 - To stop the script, press Ctrl + C. This will halt the monitoring process.
 
