@@ -73,3 +73,24 @@ Removed: content-banned-file3.txt
 Stop the Script:
 
 To stop the script, press Ctrl + C. This will halt the monitoring process.
+
+# Future Improvements
+
+Here’s a summary of future improvements:
+
+Logging: The script could log events to a file, allowing for persistent records with timestamps.
+
+Email/Notification Alerts: The script could send email or system notifications when file events occur.
+
+Multiple Directory Support: The script could monitor multiple directories, either by accepting a list of directories or monitoring a parent directory and its subdirectories.
+
+File Type Filtering: Users could filter files based on type or extension, in addition to the content-banned string.
+
+Daemon Mode: The script could run as a background service, restarting automatically after system reboots using tools like systemd.
+
+More Detailed Output: Detailed information such as file sizes, timestamps, and error messages could be added to the output.
+
+Cross-Platform Support: The script could be improved for better cross-platform compatibility, including Windows.
+
+Graceful Shutdown: A mechanism could be implemented for users to gracefully stop the script without manually interrupting it.
+
