@@ -34,10 +34,10 @@ It assumes Python 3.x, which is available on most modern Linux/Unix distribution
 
 # How It Works
 
-**Startup**: The script checks the folder on startup and identifies any existing files with content-banned in their names.
-**Polling**: It continuously polls the folder at a configurable interval (default is 1 second) to check for changes (file creation, renaming, or removal).
-**Event Handling**: For each event (created, renamed, removed), the script prints a message to the screen indicating which file was affected.
-**User Input**: The script prompts the user to input a valid folder path, ensuring that the path exists before starting the monitoring process.
+- **Startup**: The script checks the folder on startup and identifies any existing files with content-banned in their names.
+- **Polling**: It continuously polls the folder at a configurable interval (default is 1 second) to check for changes (file creation, renaming, or removal).
+- **Event Handling**: For each event (created, renamed, removed), the script prints a message to the screen indicating which file was affected.
+- **User Input**: The script prompts the user to input a valid folder path, ensuring that the path exists before starting the monitoring process.
 
 # How to Run the Script
 
