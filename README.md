@@ -50,7 +50,7 @@ You can check if Python 3 is installed by running the following command:
 
 - Make the Script Executable (Optional):
 
-**chmod +x script-v8.py**
+**chmod +x folder-monitoring-script.py**
 
 - Run the Script:
 
